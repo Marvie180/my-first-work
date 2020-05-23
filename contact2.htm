@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>user form</title>
+    </head>
+    <body>
+        <table border="0" width="100%" bgcolor="skyblue">
+        <tbody>
+            <tr>
+                <td bgcolor="skyblue" width="2%">
+                  <img src="img/ima0013.jpg" width="70px">
+                </td>
+                <td bgcolor="skyblue">
+                    <p><font color="lightblue" >Federal University<br> of Technology<br> Akure</font></p>
+                </td>
+                <td bgcolor="skyblue" width="10%"> 
+                    <p align="center"><font color="lightblue" size="2" face="Arial">Welcome-Cpe/18/6637</font></p>
+                </td>
+            </tr>
+            
+        </tbody>
+        </table>
+       
+         <hr color='blue'/>
+         <h3 align="center">
+          Students' Biodata Login
+         </h3>
+         <form align="center">
+            <label>UTME number/ Matric number</label>
+            <input type="text"/><br><br>
+            <label>Password</label>
+            <input type="password" size="30"/><br><br>
+            <button type="submit" >Login now</button>
+        </form>
+
+        <h3>&nbsp;</h3>
+        <form>
+        <table  border="6" width="100%">
+        <tr>
+            <td bgcolor="#1E90FF" width="20%"> 
+                <h3>Dashboard</h3><br>
+                <h3>Student biodata</h3><br>
+                <h3>Payments</h3><br>
+                <h3>Accommodation</h3><br>
+                <h3>Course registration</h3><br>
+                <h3>Print Course Forms</h3><br>
+                <h3>Result Notification</h3><br>
+                <h3>Result Checking</h3><br>
+                <h3>Admission Information</h3><br>
+                <h3>Nomination Application</h3><br>
+            </td>
+            <td>  
+                <table border="0" bgcolor="#f8f8ff" cellpadding="5" width="100%">
+                    <tr>
+                        <td width="">
+                            <label id="ltitle" for="title">Title*</label>
+                        </td>
+                        <td>
+                            <select id="titie" name="title">
+                                <option>Select</option>
+                                <option>Miss</option>
+                                <option>Mr</option>
+                                <option>Mrs</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Surname*</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="15" value="" name="sname" id="sname"/>
+                        </td>
+                        <td >
+                            <label>Other names</label>
+                        </td>
+                        <td>
+                            <input type="text" size="30" maxlength="10" value="" name="other names" id="other names"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <label>Matric No</label> 
+                        </td>
+                        <td>
+                            <input type="text" size="15" maxlength="15" value="" name="matric no" id="matric no"/>
+                        </td>
+                        <td width="">
+                            <label id="lgender" for="gender">Gender</label>
+                        </td>
+                        <td>
+                            <select id="gender" name="gender">
+                                <option>Select</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="phone">Phone number</label>
+                        </td>
+                        <td>                      
+                            <input type="tel" id="phone" name="phone" pattern="0-9">
+                        </td>
+                        <td>
+                            <label for="email">Email address</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date of birth">Date of birth</label>
+                        </td>
+                        <td>   
+                            <input type="date" id="date of birth" name="date of birth">
+                        </td>
+                        <td>
+                            <label>Place of Birth</label>
+                        </td>
+                        <td>
+                            <input type="text" size="10" maxlength="15" value="" name="place of birth" id="place of birth"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Mode of admission</label>
+                        </td>
+                        <td>
+                            <input type="text" size="25" maxlength="30" value="" name="mode of admission" id="mode of admission"/>
+                        </td>
+                        <td>
+                            <label>Off Campus address</label>
+                        </td>
+                        <td>
+                            <input type="text" size="30" maxlength="40" value="" name="off campus address" id="off campus address"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="">
+                            <label id="lmstatus" for="mstatus">Marital status</label>
+                        </td>
+                        <td>
+                            <select id="mstatus" name="mstatus">
+                                <option>Select</option>
+                                <option>Single</option>
+                                <option>Married</option>
+                                <option>Divorced</option>
+                                <option>Widowed</option>
+                            </select>
+                        </td>
+                        <td width="">
+                            <label id="lreligion" for="lreligion">Religion</label>
+                        </td>
+                        <td>
+                            <select id="lreligion" name="lreligion">
+                                <option>Select</option>
+                                <option>Single</option>
+                                <option>Married</option>
+                                <option>Divorced</option>
+                                <option>Widowed</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="">
+                            <label id="lnationality" for="lnationality">Nationality</label>
+                        </td>
+                        <td>
+                            <select id="lnationality" name="lnationality">
+                                <option>Select</option>
+                                <option>Nigerian</option>
+                                <option>Ghana</option>
+                                <option>others</option>                                        
+                        </td>
+                        <td width="">
+                            <label id="lstate" for="lstate">State of Origin</label>
+                        </td>
+                        <td>
+                            <select id="lstate" name="lstate">
+                                <option>Select</option>
+                                <option>Oyo</option>
+                                <option>Lagos</option>
+                                <option>Ogun</option>  
+                                <option>Ondo</option>
+                                <option>Kwara</option>
+                                <option>Ekiti</option>
+                                <option>Osun</option>                                   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Hometown</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="20" value="" name="Hometown" id="hometown"/>
+                        </td>
+                        <td>
+                            <label>Local Governent Area</label>
+                        </td>
+                        <td>
+                            <input type="text" size="25" maxlength="30" value="" name="LGA" id="LGA"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Permanent Home Address</label>
+                        </td>
+                        <td>
+                            <input type="text" size="30" maxlength="100" value="" name="Permanent Home Address" id="Permanent Home Address"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Postal Address</label>
+                        </td>
+                        <td>
+                            <input type="text" size="30" maxlength="100" value="" name="Postal Address" id="Postal Address"/>
+                        </td>
+                    </tr>
+                    
+                    <table cellpadding="5" width="100%">
+                    <p><font color="gray" size="4" face="Arial">Department Information </font></p>
+                    <hr color='lightgray'/>
+                    <tr>
+                         <td>
+                            <label>School admitted into</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="20" value="" name="school admitted into" id="school admitted into"/>
+                        </td>
+                        <td>
+                            <label>Department</label>
+                        </td>
+                        <td>
+                            <input type="text" size="25" maxlength="30" value="" name="department" id="department"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <label>Level</label>
+                       </td>
+                       <td>
+                           <input type="text" size="10" maxlength="10" value="" name="level" id="level"/>
+                       </td>
+                       <td>
+                           <label>Degree certificate</label>
+                       </td>
+                       <td>
+                           <input type="text" size="25" maxlength="30" value="" name="Degree certificate" id="Degree certificate"/>
+                       </td>
+                    </tr>
+                    </table> 
+                    
+                    <table cellpadding="5" width="100%">
+                    <hr color='gray'/>
+                    <tr>
+                        <td width="">
+                            <label id="lmatriculated" for="matriculated">Have you matriculated in any other institution</label>
+                        </td>
+                        <td>
+                            <select id="matriculated" name="matriculated">
+                                <option>Select</option>
+                                <option>YES</option>
+                                <option>NO</option>
+                                <option>MAY BE</option>
+                            </select>
+                        </td>
+                       <td>
+                           <label>If Yes, where</label>
+                       </td>
+                       <td>
+                           <input type="text" size="25" maxlength="30" value="" name="where" id="where"/>
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Course of study</label>
+                        </td>
+                        <td>
+                            <input type="text" size="25" maxlength="30" value="" name="department" id="department"/>
+                        </td>
+                        <td>
+                            <label>Matriculation Number</label> 
+                         </td>
+                         <td>
+                             <input type="text" size="15" maxlength="15" value="" name="matric no" id="matric no"/>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Reason(s) for leaving</label>
+                        </td>
+                        <td>
+                            <input type="text" size="25" maxlength="30" value="" name="reasons" id="reasons"/>
+                        </td>
+                    </tr>        
+                    </table>
+
+                    <table cellpadding="5" width="100%">
+                    <p><font color="gray" size="4" face="Arial">Parent/Guardian/Next of Kin Information </font></p>
+                    <hr color='lightgray'/>
+                    <tr>
+                        <td>
+                            <label>Next of Kin*</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="15" value="" name="name" id="name"/>
+                        </td>
+                        <td >
+                            <label>Address*</label>
+                        </td>
+                        <td>
+                            <input type="text" size="30" maxlength="30" value="" name="address" id="address"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="phone">Phone number*</label>
+                        </td>
+                        <td>                      
+                            <input type="tel" id="phone" name="phone" pattern="0-9">
+                        </td>
+                        <td>
+                            <label for="relationship">Relationship*</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="20" value="" name="relationship" id="relationship"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Father's name</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="15" value="" name="name" id="name"/>
+                        </td>
+                        <td >
+                            <label>Address</label>
+                        </td>
+                        <td>
+                            <input type="text" size="30" maxlength="30" value="" name="address" id="address"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="phone">Phone number</label>
+                        </td>
+                        <td>                      
+                            <input type="tel" id="phone" name="phone" pattern="0-9">
+                        </td>
+                        <td>
+                            <label for="occupation">Occupation</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="20" value="" name="occupation" id="occupation"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Mother's name</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="15" value="" name="name" id="name"/>
+                        </td>
+                        <td >
+                            <label>Address</label>
+                        </td>
+                        <td>
+                            <input type="text" size="30" maxlength="30" value="" name="address" id="address"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="phone">Phone number</label>
+                        </td>
+                        <td>                      
+                            <input type="tel" id="phone" name="phone" pattern="0-9">
+                        </td>
+                        <td>
+                            <label for="occupation">Occupation</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="20" value="" name="occupation" id="occupation"/>
+                        </td>
+                    </tr>
+                    </table>
+
+                    <table cellpadding="5" width="100%">
+                    <p><font color="gray" size="4" face="Arial">Sponsor Information </font></p>
+                    <hr color='lightgray'/>
+                    <tr>
+                        <td>
+                            <label>Sponsor's name</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="15" value="" name="name" id="name"/>
+                        </td>
+                        <td>
+                            <label for="phone">Phone number</label>
+                        </td>
+                        <td>                      
+                            <input type="tel" id="phone" name="phone" pattern="0-9">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="relationship">Sponsor Relationship*</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="20" value="" name="relationship" id="relationship"/>
+                        </td>
+                        <td>
+                            <label for="occupation">Occupation</label>
+                        </td>
+                        <td>
+                            <input type="text" size="20" maxlength="20" value="" name="occupation" id="occupation"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            <label>Address</label>
+                        </td>
+                        <td>
+                            <input type="text" size="30" maxlength="30" value="" name="address" id="address"/>
+                        </td>
+                    </tr>
+                    </table>
+                    
+                    <table cellpadding="5" width="15%">
+                    <hr color='gray'/>
+                    <tr>
+                        <td bgcolor="#1E90FF"><input type="submit" value="Save & Continue" /></td>
+                        <td bgcolor="#1E90FF"><input type="reset" value="Cancel" /></td>
+                    </tr>
+                    </table>
+                </table>
+            </td>
+        </tr>
+        </table>
+        </form>
+    </body>
+</html>
