@@ -1,0 +1,23 @@
+#titleText{
+    color:rgb(12, 12, 187);
+    font-size:x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:thistle
+ }
+.cs{
+    float:left;
+    color:#fff;
+    font:1.1em tahoma bold;
+    width: 20%;
+    height: 1000px;
+    background-color:rgb(80, 112, 207); 
+}
+img{
+    float: right;
+}
+.mainlayout{
+    float:left;
+    width: 80%;
+    height: 100%;
+    background-color: azure;
+}
